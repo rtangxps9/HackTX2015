@@ -45,11 +45,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\5MinuteGUI\Editor\Data\FMGData.cs" />
+     <Compile Include="Assets\5MinuteGUI\Editor\EditorWindows\BaseEditorWindow.cs" />
+     <Compile Include="Assets\5MinuteGUI\Editor\EditorWindows\FMGEditorWindow.cs" />
+     <Compile Include="Assets\5MinuteGUI\Editor\EditorWindows\SplashEditor.cs" />
+     <Compile Include="Assets\5MinuteGUI\Editor\MiscFuncs\EditorMisc.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
+     <None Include="Assets\5MinuteGUI\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
+     <None Include="Assets\5MinuteGUI\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
+     <None Include="Assets\5MinuteGUI\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\Myo\README-MyoUnity.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
