@@ -22,12 +22,10 @@ public class BoundaryScript : MonoBehaviour {
 	*/
 	void OnCollisionExit(Collision collisionInfo)
 	{
-		Debug.Log ("ASLKFJASLKFHASFLKF");
 		GameObject target = collisionInfo.gameObject;
 		Debug.Log (target.name);
 		if (target.name == "Asteroid(Clone)") 
 		{
-			Debug.Log("ITS GUNNA DIE FEWL");
 			Destroy(target);
 		}
 

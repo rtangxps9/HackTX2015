@@ -7,7 +7,7 @@ public class WorldScript : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		InvokeRepeating("CreateAsteroid", 1f, 1.5f); //Manipulate last two parameters depending on desired spawn rate 
+		InvokeRepeating("CreateAsteroid", 1f, .3f); //Manipulate last two parameters depending on desired spawn rate 
 	}
 	
 	// Update is called once per frame
@@ -17,8 +17,8 @@ public class WorldScript : MonoBehaviour {
 	
 	void CreateAsteroid()
 	{
-		float x = Random.Range(-8.5f, 10.5f);
-		float y = Random.Range(-9f, 12f);
+		float x = Random.Range(-14f, 15f);
+		float y = Random.Range(-7f, 11f);
 		
 		startPoint = new Vector3(x, y, 40);
 		Instantiate(asteroid, startPoint, Quaternion.identity);

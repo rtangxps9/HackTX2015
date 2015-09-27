@@ -9,8 +9,10 @@ public class AsteroidScript : MonoBehaviour {
 	{
 		body = GetComponent<Rigidbody> ();
 		body.velocity = vel;
-		float x = Random.Range(0f, 3f);
-		transform.localScale += new Vector3(x, x, x);
+		float x = Random.Range(1f, 5f);
+		float y = Random.Range(1f, 5f);
+		float z = Random.Range(1f, 5f);
+		transform.localScale += new Vector3(x, y, z);
 	}
 	
 	// Update is called once per frame
